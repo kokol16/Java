@@ -1,0 +1,92 @@
+/*
+ * @author Manos Chatzakis (chatzakis@ics.forth.gr)
+ * @author George Kokolakis (gkokol@ics.forth.gr)
+ */
+html ,body  {
+    background: url("../img/medical2.jpg") no-repeat fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.container{
+    height: 96%;
+}
+label
+{
+    font-weight: bold;
+    color:rgb(243, 243, 243);
+}
+.Form-container
+{
+    box-sizing: border-box;
+    border-radius: 2%;
+    background-color:rgb(58, 56, 56);
+}   
+h1{
+
+    color:rgb(255, 255, 255);
+}
+
+
+
+
+
+@media (min-width: 576px) {  
+    #diseases-table{
+        left: 45%;
+    }
+    #history-table{
+        left: 73%;
+    }
+    #form
+    {
+        right:14%;
+    }   
+
+}
+
+@media (min-width: 768px) { 
+    #diseases-table{
+        left: 48%;
+    }
+    #history-table{
+        left: 68%;
+    }
+    #form
+    {
+        right:12%;
+    }   
+}
+
+@media (min-width: 992px) {
+    #diseases-table{
+        left: 49%;
+    }
+    #history-table{
+        left: 74%;
+    }
+    #form
+    {
+        right:13%;
+    }   
+}
+@media (min-width: 1200px){
+    #diseases-table{
+        left: 49%;
+    }
+    #history-table{
+        left: 77%;
+    }
+    #form
+    {
+        right:13%;
+    }   
+}
+
+
